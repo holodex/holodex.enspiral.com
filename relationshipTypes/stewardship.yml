@@ -6,10 +6,12 @@ roleTypes:
   - '@type': RoleType
     id: roleTypes/steward
     name: steward
-    label: "{steward} is steward of {stewardee}"
     pluralName: stewards
+    relationshipType: relationshipTypes/stewardship
+    label: "{steward} is steward of {stewardee}"
   - '@type': RoleType
     id: roleTypes/stewardee
     name: stewardee
     pluralName: stewardees
+    relationshipType: relationshipTypes/stewardship
     label: "{stewardee} is stewarded by {steward}"

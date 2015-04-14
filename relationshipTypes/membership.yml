@@ -7,9 +7,11 @@ roleTypes:
     id: roleTypes/member
     name: member
     pluralName: members
+    relationshipType: relationshipTypes/membership
     label: "{member} is a member of {group}"
   - '@type': RoleType
     id: roleTypes/group
     name: group
     pluralName: groups
+    relationshipType: relationshipTypes/membership
     label: "{group} has member {member}"

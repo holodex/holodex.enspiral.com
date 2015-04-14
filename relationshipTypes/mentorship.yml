@@ -7,9 +7,11 @@ roleTypes:
     id: roleTypes/mentor
     name: mentor
     pluralName: mentors
+    relationshipType: relationshipTypes/mentorship
     label: "{mentor} is mentor of {mentee}"
   - '@type': RoleType
     id: roleTypes/mentee
     name: mentee
     pluralName: mentees
+    relationshipType: relationshipTypes/mentorship
     label: "{mentee} is mentored by {mentor}"
