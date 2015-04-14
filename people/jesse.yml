@@ -1,3 +1,23 @@
 '@type': Person
 name: Jesse
 image: http://gravatar.com/avatar/0b1941ab5c9e58601c0ada31f5b4b68b?s=512&d=identicon
+relationships:
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/jesse
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-craftworks
+  - '@type': Relationship
+    type: relationshipTypes/stewardship
+    context: groups/enspiral-craftworks
+    roles:
+      - '@type': Role
+        type: roleTypes/steward
+        agent: people/jesse
+      - '@type': Role
+        type: roleTypes/stewardee
+        agent: people/nicola
