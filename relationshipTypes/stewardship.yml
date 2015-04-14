@@ -4,10 +4,12 @@ pluralName: stewardships
 description: A steward stewards a stewardee.
 roleTypes:
   - '@type': RoleType
+    id: roleTypes/steward
     name: steward
     label: "{steward} is steward of {stewardee}"
     pluralName: stewards
   - '@type': RoleType
+    id: roleTypes/stewardee
     name: stewardee
     pluralName: stewardees
     label: "{stewardee} is stewarded by {steward}"

@@ -4,10 +4,12 @@ pluralName: memberships
 description: A member is part of a group
 roleTypes:
   - '@type': RoleType
+    id: roleTypes/member
     name: member
     pluralName: members
     label: "{member} is a member of {group}"
   - '@type': RoleType
+    id: roleTypes/group
     name: group
     pluralName: groups
     label: "{group} has member {member}"

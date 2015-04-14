@@ -2,9 +2,9 @@
 type: relationshipTypes/stewardship
 roles:
   - '@type': Role
-    type: relationshipTypes/stewardship#/roleTypes/0
+    type: roleTypes/steward
     agent: people/ayumi
   - '@type': Role
-    type: relationshipTypes/stewardship#/roleTypes/1
+    type: roleTypes/stewardee
     agent: people/mix
 context: groups/enspiral-craftworks
