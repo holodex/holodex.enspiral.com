@@ -36,3 +36,12 @@ relationships:
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/simon
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/charlie
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-services
