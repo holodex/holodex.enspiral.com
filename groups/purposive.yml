@@ -1,13 +1,13 @@
 '@type': Group
-name: Enspiral Craftworks
-image: http://i.imgur.com/BFmaOxi.png
+name: Purposive
+image: http://i.imgur.com/LvqIsgw.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: group/purposive
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

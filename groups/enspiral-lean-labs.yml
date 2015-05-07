@@ -1,13 +1,13 @@
 '@type': Group
-name: Enspiral Craftworks
-image: http://i.imgur.com/BFmaOxi.png
+name: Enspiral Lean Lab
+image: http://leanlab.co.nz/wp-content/uploads/2015/04/LeanLabs_5002-500x472-53380.png
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: group/enspiral-lean-lab
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

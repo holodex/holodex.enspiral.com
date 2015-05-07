@@ -1,22 +1,22 @@
 '@type': Person
-name: Katie
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/030/918/large/puppy.jpg?1412151528
+name: Maz-hermon
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/019/large/mazProfileOfficeBW.png?1406161867
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/katie
+        agent: people/maz-hermon
       - '@type': Role
         type: roleTypes/group
-        agent: groups/purposive
+        agent: groups/enspiral-services
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/katie
+        agent: people/maz-hermon
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/noshi-creative

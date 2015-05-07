@@ -1,5 +1,5 @@
 '@type': Group
-name: Enspiral Craftworks
+name: Iguanas
 image: http://i.imgur.com/BFmaOxi.png
 relationships:
   - '@type': Relationship
@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: group/igunanas
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

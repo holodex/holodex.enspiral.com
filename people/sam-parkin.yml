@@ -1,22 +1,22 @@
 '@type': Person
-name: Katie
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/030/918/large/puppy.jpg?1412151528
+name: Sam
+image: https://secure.gravatar.com/avatar/beab112fb9bfe5ce100e37fbb1d7c89e.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/katie
+        agent: people/sam
       - '@type': Role
         type: roleTypes/group
-        agent: groups/purposive
+        agent: groups/enspiral-lean-lab
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/katie
+        agent: people/sam
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
