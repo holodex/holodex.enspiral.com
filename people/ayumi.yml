@@ -21,3 +21,12 @@ relationships:
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/mix
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/ayumi
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-services

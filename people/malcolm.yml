@@ -1,22 +1,22 @@
 '@type': Person
-name: Genevieve
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/004/638/large/Screenshot_2014-09-30_22.01.31.png?1412069313
+name: Malcolm
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/001/382/large/IMG_1390_-_Version_2.jpg?1395287883
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/genevieve
+        agent: people/malcolm
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
+        agent: groups/iguanas
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/genevieve
+        agent: people/malcolm
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

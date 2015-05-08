@@ -1,13 +1,13 @@
-'@type': Group
-name: Enspiral Craftworks
-image: http://i.imgur.com/BFmaOxi.png
+'@type': Person
+name: Manu
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/001/382/large/IMG_1390_-_Version_2.jpg?1395287883
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: people/manu
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

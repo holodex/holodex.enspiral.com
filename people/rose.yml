@@ -1,13 +1,13 @@
-'@type': Group
-name: Enspiral Craftworks
-image: http://i.imgur.com/BFmaOxi.png
+'@type': Person
+name: Rose
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/005/506/large/rose.jpg?1417556673
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: people/rose
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

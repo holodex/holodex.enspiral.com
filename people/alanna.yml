@@ -1,13 +1,13 @@
-'@type': Group
-name: Enspiral Craftworks
-image: http://i.imgur.com/BFmaOxi.png
+'@type': Person
+name: Alanna
+image: https://secure.gravatar.com/avatar/04dbc46af4a947751837e68c37552ea2.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-craftworks
+        agent: people/alanna
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
