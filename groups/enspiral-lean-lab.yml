@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/enspiral-lean-lab
+        agent: groups/enspiral-lean-lab
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

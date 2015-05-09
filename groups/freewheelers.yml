@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/freewheelers
+        agent: groups/freewheelers
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

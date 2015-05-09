@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: group/purposive
+        agent: groups/purposive
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
