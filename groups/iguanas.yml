@@ -3,11 +3,11 @@ name: Iguanas
 image: http://i.imgur.com/BFmaOxi.png
 relationships:
   - '@type': Relationship
-    type: relationshipTypes/membership
+    type: relationshipTypes/set
     roles:
       - '@type': Role
-        type: roleTypes/member
-        agent: group/igunanas
+        type: roleTypes/subgroup
+        agent: group/iguanas
       - '@type': Role
-        type: roleTypes/group
+        type: roleTypes/parent-group
         agent: groups/enspiral-services

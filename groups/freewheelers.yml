@@ -3,11 +3,11 @@ name: Freewheelers
 image: http://i.imgur.com/BFmaOxi.png
 relationships:
   - '@type': Relationship
-    type: relationshipTypes/membership
+    type: relationshipTypes/set
     roles:
       - '@type': Role
-        type: roleTypes/member
+        type: roleTypes/subgroup
         agent: group/freewheelers
       - '@type': Role
-        type: roleTypes/group
+        type: roleTypes/parent-group
         agent: groups/enspiral-services

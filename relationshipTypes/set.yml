@@ -1,0 +1,17 @@
+'@type': RelationshipType
+name: set
+pluralName: sets
+description: A group is part of a group
+roleTypes:
+  - '@type': RoleType
+    id: roleTypes/subgroup
+    name: subgroup
+    pluralName: subgroups
+    relationshipType: relationshipTypes/set
+    label: "{subgroup} is part of {subgroup}"
+  - '@type': RoleType
+    id: roleTypes/parent-group
+    name: parent group
+    pluralName: parent group
+    relationshipType: relationshipTypes/set
+    label: "{parent-group} has subgroup {subgroup}"
