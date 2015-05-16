@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/subgroup
-        agent: group/iguanas
+        agent: groups/iguanas
       - '@type': Role
         type: roleTypes/parent-group
         agent: groups/enspiral-services

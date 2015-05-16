@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/subgroup
-        agent: group/noshi-creative
+        agent: groups/noshi-creative
       - '@type': Role
         type: roleTypes/parent-group
         agent: groups/enspiral-services
