@@ -1,6 +1,6 @@
 '@type': Group
 name: Noshi Creative
-image: http://i.imgur.com/Wn6NeTN.png
+image: http://i.imgur.com/WxsHqkb.png
 relationships:
   - '@type': Relationship
     type: relationshipTypes/set
