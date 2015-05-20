@@ -1,6 +1,6 @@
 '@type': Group
 name: Freewheelers
-image: http://i.imgur.com/BFmaOxi.png
+image: http://i.imgur.com/tiiYGJv.png
 relationships:
   - '@type': Relationship
     type: relationshipTypes/set
