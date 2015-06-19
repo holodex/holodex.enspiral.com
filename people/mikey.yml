@@ -28,10 +28,10 @@ relationships:
     type: relationshipTypes/mentorship
     roles:
       - '@type': Role
-        type: roleTypes/mentor
+        type: roleTypes/mentee
         agent: people/mikey
       - '@type': Role
-        type: roleTypes/mentee
+        type: roleTypes/mentor
         agent: people/simon
   - '@type': Relationship
     type: relationshipTypes/stewardship
