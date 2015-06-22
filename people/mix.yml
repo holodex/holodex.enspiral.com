@@ -8,13 +8,16 @@ bio: >
 #     "@type": Place
 #     name: New Zealand
 image: http://www.gravatar.com/avatar/3c74b184677ec92d495b328105aed1dc.png 
+me: &me
+  agent: people/mix
+
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/mix
+        <<: *me 
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
@@ -24,7 +27,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        agent: people/mix
+        <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/dr-craig
@@ -34,7 +37,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        agent: people/mix
+        <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/joshua
@@ -43,7 +46,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/mix
+        <<: *me 
       - '@type': Role
         type: roleTypes/group
         agent: groups/loomio
@@ -53,7 +56,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        agent: people/mix
+        <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/ben-knight

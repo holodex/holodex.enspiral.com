@@ -1,8 +1,8 @@
 '@type': Person
-name: Dick Bartlett
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/209/large/c_snail.jpg?1406161962
+name: Viv
+image: https://secure.gravatar.com/avatar/2e1a65be5c5afea18cdca64f9b5e5ea0.png?d=none&r=pg&s=170
 me: &me
-  agent: people/richard-bartlett
+  agent: people/viv-maidaborn
 
 relationships:
   - '@type': Relationship
@@ -24,15 +24,5 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/alanna
-  - '@type': Relationship
-    type: relationshipTypes/stewardship
-    context: groups/loomio
-    roles:
-      - '@type': Role
-        type: roleTypes/steward
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/stewardee
-        agent: people/simon
+        agent: people/viv-maidaborne
 

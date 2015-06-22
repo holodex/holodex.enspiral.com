@@ -6,13 +6,16 @@ handle: simontegg
 #     "@type": Place
 #     name: New Zealand
 image: https://avatars0.githubusercontent.com/u/1574732?v=2&s=460
+me: &me
+  agent: people/simon
+
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/simon
+        <<: *me 
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
@@ -22,7 +25,29 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        agent: people/simon
+        <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/stephanie
+
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/loomio
+
+  - '@type': Relationship
+    type: relationshipTypes/stewardship
+    context: groups/loomio
+    roles:
+      - '@type': Role
+        type: roleTypes/steward
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/stewardee
+        agent: people/jesse
+

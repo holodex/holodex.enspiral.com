@@ -1,8 +1,8 @@
 '@type': Person
-name: Dick Bartlett
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/209/large/c_snail.jpg?1406161962
+name: MJ
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/005/693/large/Swearer_140421_1710.jpg?1429795564
 me: &me
-  agent: people/richard-bartlett
+  agent: people/mj-kaplan
 
 relationships:
   - '@type': Relationship
@@ -24,15 +24,5 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/alanna
-  - '@type': Relationship
-    type: relationshipTypes/stewardship
-    context: groups/loomio
-    roles:
-      - '@type': Role
-        type: roleTypes/steward
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/stewardee
-        agent: people/simon
+        agent: people/matthew-bartlett
 
