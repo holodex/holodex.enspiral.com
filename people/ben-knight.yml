@@ -1,8 +1,9 @@
 '@type': Person
-name: Chelsea
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/209/large/c_snail.jpg?1406161962
+name: Ben Knight
+handle: benknight
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/031/large/ProfilePicture.png?1406161877
 me: &me
-  agent: people/chelsea
+  agent: people/ben-knight
 
 relationships:
   - '@type': Relationship
@@ -13,17 +14,7 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
-  - '@type': Relationship
-    type: relationshipTypes/membership
-    roles:
-      - '@type': Role
-        type: roleTypes/member
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/group
         agent: groups/loomio
-
   - '@type': Relationship
     type: relationshipTypes/stewardship
     context: groups/loomio
@@ -33,4 +24,15 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/richard-bartlett
+        agent: people/james-kiesel
+  - '@type': Relationship
+    type: relationshipTypes/stewardship
+    context: groups/loomio
+    roles:
+      - '@type': Role
+        type: roleTypes/steward
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/stewardee
+        agent: people/rob-guthrie
+

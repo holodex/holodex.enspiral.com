@@ -1,10 +1,19 @@
 '@type': Person
-name: Chelsea
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/209/large/c_snail.jpg?1406161962
+name: Rob Guthrie
+image: https://www.loomio.org/assets/people/rob-f876c436322be6a84b17abf80872e68b.jpg
 me: &me
-  agent: people/chelsea
+  agent: people/rob-guthrie
 
 relationships:
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/loomio
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -22,7 +31,7 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/group
-        agent: groups/loomio
+        agent: groups/enspiral-craftworks
 
   - '@type': Relationship
     type: relationshipTypes/stewardship
@@ -33,4 +42,4 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/richard-bartlett
+        agent: people/chelsea
