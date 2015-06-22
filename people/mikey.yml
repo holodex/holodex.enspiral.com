@@ -1,5 +1,5 @@
 '@type': Person
-name: Mikey
+name: Mikey Williams
 handle: ahdinosaur
 bio: >
   i'm a hippie hacker on a mission to demystify the magic of technology and put
@@ -24,6 +24,15 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/mikey
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-services
   - '@type': Relationship
     type: relationshipTypes/mentorship
     roles:

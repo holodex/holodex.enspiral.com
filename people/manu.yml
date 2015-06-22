@@ -1,6 +1,6 @@
 '@type': Person
-name: Manu
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/001/382/large/IMG_1390_-_Version_2.jpg?1395287883
+name: Manu Vallyon
+image: https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/005/00a/1e6/0930f0c.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
@@ -10,4 +10,14 @@ relationships:
         agent: people/manu
       - '@type': Role
         type: roleTypes/group
+        agent: groups/enspiral-craftworks
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/manu
+      - '@type': Role
+        type: roleTypes/group
         agent: groups/enspiral-services
+

@@ -1,6 +1,6 @@
 '@type': Person
-name: Matt-Sinnock
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/011/190/large/profile_pic.jpg?1403835891
+name: Matt Sinnock
+image: https://media.licdn.com/mpr/mpr/shrink_120_120/p/3/000/033/33f/1b85d25.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
@@ -19,4 +19,4 @@ relationships:
         agent: people/matt-sinnock
       - '@type': Role
         type: roleTypes/group
-        agent: groups/freewheelers
+        agent: groups/enspiral-craftworks
