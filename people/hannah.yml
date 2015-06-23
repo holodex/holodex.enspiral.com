@@ -44,4 +44,4 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/viv-maidaborne
+        agent: people/viv-maidaborn
