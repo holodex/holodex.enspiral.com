@@ -1,13 +1,8 @@
 '@type': Person
-name: Simon
-handle: simontegg
-# location:
-#   - "@id": http://sws.geonames.org/2186224/
-#     "@type": Place
-#     name: New Zealand
-image: https://avatars0.githubusercontent.com/u/1574732?v=2&s=460
+name: Rob Guthrie
+image: https://www.loomio.org/assets/people/rob-f876c436322be6a84b17abf80872e68b.jpg
 me: &me
-  agent: people/simon
+  agent: people/rob-guthrie
 
 relationships:
   - '@type': Relationship
@@ -18,18 +13,7 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
-  - '@type': Relationship
-    type: relationshipTypes/stewardship
-    context: groups/enspiral-craftworks
-    roles:
-      - '@type': Role
-        type: roleTypes/steward
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/stewardee
-        agent: people/stephanie
-
+        agent: groups/loomio
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -38,7 +22,16 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/group
-        agent: groups/loomio
+        agent: groups/enspiral-services
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-craftworks
 
   - '@type': Relationship
     type: relationshipTypes/stewardship
@@ -49,5 +42,4 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/jesse
-
+        agent: people/chelsea

@@ -1,19 +1,10 @@
 '@type': Person
-name: Chelsea
-image: http://livethedream.org.nz/wp/wp-content/uploads/2014/01/Contributors_ChelseaRobinson.jpg
+name: Michael
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/003/827/large/Michael_waterfront_compressed.jpg?1366258373
 me: &me
-  agent: people/chelsea
+  agent: people/michael-elwood-smith
 
 relationships:
-  - '@type': Relationship
-    type: relationshipTypes/membership
-    roles:
-      - '@type': Role
-        type: roleTypes/member
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/group
-        agent: groups/enspiral-services
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -33,4 +24,5 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/richard-bartlett
+        agent: people/mix
+

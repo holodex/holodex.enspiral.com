@@ -1,35 +1,10 @@
 '@type': Person
-name: Simon
-handle: simontegg
-# location:
-#   - "@id": http://sws.geonames.org/2186224/
-#     "@type": Place
-#     name: New Zealand
-image: https://avatars0.githubusercontent.com/u/1574732?v=2&s=460
+name: Dick Bartlett
+image: https://secure.gravatar.com/avatar/d5039eb7649c89379ed0715e41a68310.png?d=none&r=pg&s=512
 me: &me
-  agent: people/simon
+  agent: people/richard-bartlett
 
 relationships:
-  - '@type': Relationship
-    type: relationshipTypes/membership
-    roles:
-      - '@type': Role
-        type: roleTypes/member
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/group
-        agent: groups/enspiral-craftworks
-  - '@type': Relationship
-    type: relationshipTypes/stewardship
-    context: groups/enspiral-craftworks
-    roles:
-      - '@type': Role
-        type: roleTypes/steward
-        <<: *me 
-      - '@type': Role
-        type: roleTypes/stewardee
-        agent: people/stephanie
-
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -49,5 +24,15 @@ relationships:
         <<: *me 
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/jesse
+        agent: people/alanna
+  - '@type': Relationship
+    type: relationshipTypes/stewardship
+    context: groups/loomio
+    roles:
+      - '@type': Role
+        type: roleTypes/steward
+        <<: *me 
+      - '@type': Role
+        type: roleTypes/stewardee
+        agent: people/simon
 
