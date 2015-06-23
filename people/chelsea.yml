@@ -1,6 +1,6 @@
 '@type': Person
 name: Chelsea
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/209/large/c_snail.jpg?1406161962
+image: http://livethedream.org.nz/wp/wp-content/uploads/2014/01/Contributors_ChelseaRobinson.jpg
 me: &me
   agent: people/chelsea
 
