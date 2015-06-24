@@ -1,15 +1,13 @@
 '@type': Person
 name: Jesse Doud
 image: https://www.loomio.org/assets/people/jesse-b605b0d9033fc5638acfb5ab5b2181e1.jpg
-me: &me
-  agent: people/jesse
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
@@ -28,28 +26,26 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/nicola
-
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/group
         agent: groups/loomio
-
   - '@type': Relationship
     type: relationshipTypes/stewardship
     context: groups/loomio
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/hannah
@@ -59,7 +55,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/aaron-thornton

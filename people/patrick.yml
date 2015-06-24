@@ -1,5 +1,5 @@
 '@type': Person
-name: Patrick
+name: Patrick Corrieri
 image: https://lh4.googleusercontent.com/-sbXdtdJVuTY/UwKytJCw6KI/AAAAAAAAAE8/cDvuH3uEStM/s498-no/IMG_0114.JPG
 relationships:
   - '@type': Relationship
@@ -10,7 +10,7 @@ relationships:
         agent: people/patrick
       - '@type': Role
         type: roleTypes/group
-        agent: groups/iguanas
+        agent: groups/enspiral-craftworks
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:

@@ -1,10 +1,5 @@
 '@type': Person
 name: Joshua
-handle: joshuavial
-# location:
-#   - "@id": http://sws.geonames.org/2186224/
-#     "@type": Place
-#     name: New Zealand
 image: https://avatars3.githubusercontent.com/u/72309?v=2&s=460
 relationships:
   - '@type': Relationship
@@ -16,6 +11,15 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/joshua
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-services
   - '@type': Relationship
     type: relationshipTypes/stewardship
     context: groups/enspiral-craftworks
