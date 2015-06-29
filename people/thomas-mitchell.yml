@@ -1,22 +1,22 @@
 '@type': Person
-name: Mason
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/011/190/large/profile_pic.jpg?1403835891
+name: Thomas Mitchell
+image: http://www.thomasmitchell.co.nz/assets/photo.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/mason
+        agent: people/thomas-mitchell
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/purposive
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/mason
+        agent: people/thomas-mitchell
       - '@type': Role
         type: roleTypes/group
-        agent: groups/freewheelers
+        agent: groups/enspiral-services
