@@ -1,5 +1,5 @@
 '@type': Person
-name: Helene
+name: Helene Malandain
 image: https://lh3.googleusercontent.com/-tcCfOtEa9cs/T8iAok1mdXI/AAAAAAAAA2c/VLrBjao3Nlk/s480-no/1%2BJun%2B2012%2B20%3A43%3A22.jpg
 relationships:
   - '@type': Relationship
@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/helene
+        agent: people/helene-malandain
       - '@type': Role
         type: roleTypes/group
         agent: groups/noshi-creative
@@ -16,7 +16,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/helene
+        agent: people/helene-malandain
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
