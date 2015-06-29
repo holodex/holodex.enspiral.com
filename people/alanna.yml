@@ -1,16 +1,13 @@
 '@type': Person
-name: Alanna
+name: Alanna Krause
 image: https://secure.gravatar.com/avatar/04dbc46af4a947751837e68c37552ea2.png?d=none&r=pg&s=170
-me: &me
-  agent: people/alanna
-
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/alanna
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
@@ -19,7 +16,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/alanna
       - '@type': Role
         type: roleTypes/group
         agent: groups/loomio
@@ -29,7 +26,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/alanna
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/mj-kaplan

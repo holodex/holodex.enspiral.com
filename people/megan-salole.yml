@@ -1,13 +1,13 @@
 '@type': Person
-name: Andrew Fyfe
-image: https://secure.gravatar.com/avatar/bde3f03b8cd6cd7985a6b42e61d7c2bf.png?d=none&r=pg&s=170
+name: Megan Salole
+image: http://static1.squarespace.com/static/5169f4a1e4b0fdc6c23ef665/t/531fc2d5e4b019b60a36e035/1394590574949/megan.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/andrew-fyfe
+        agent: people/megan-salole
       - '@type': Role
         type: roleTypes/group
         agent: groups/freewheelers
@@ -16,7 +16,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/andrew-fyfe
+        agent: people/megan-salole
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

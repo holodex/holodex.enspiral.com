@@ -1,13 +1,13 @@
 '@type': Person
-name: Andrew Fyfe
-image: https://secure.gravatar.com/avatar/bde3f03b8cd6cd7985a6b42e61d7c2bf.png?d=none&r=pg&s=170
+name: Neva Poletti
+image: https://lh3.googleusercontent.com/-UZ4rJVCvOuw/AAAAAAAAAAI/AAAAAAAAAI0/lMkDce_2yz8/photo.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/andrew-fyfe
+        agent: people/neva-poletti
       - '@type': Role
         type: roleTypes/group
         agent: groups/freewheelers
@@ -16,7 +16,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/andrew-fyfe
+        agent: people/neva-poletti
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
