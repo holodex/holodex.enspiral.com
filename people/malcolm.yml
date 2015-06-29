@@ -1,5 +1,5 @@
 '@type': Person
-name: Malcolm
+name: Malcolm Shearer
 image: https://lh3.googleusercontent.com/-xu_ROW_sm8w/AAAAAAAAAAI/AAAAAAAAGms/hhOUOgZNCJM/photo.jpg
 relationships:
   - '@type': Relationship

@@ -1,5 +1,5 @@
 '@type': Person
-name: Minh
+name: Minh Nhat Ha
 image: https://secure.gravatar.com/avatar/9ad30edff43316a917fdc37d71329a8f.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship
@@ -10,7 +10,7 @@ relationships:
         agent: people/minh
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/enspiral-craftworks
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -19,4 +19,4 @@ relationships:
         agent: people/minh
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
+        agent: groups/enspiral-services

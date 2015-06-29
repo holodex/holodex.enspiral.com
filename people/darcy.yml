@@ -1,5 +1,5 @@
 '@type': Person
-name: Darcy
+name: Darcy Burge
 image: https://lh4.googleusercontent.com/-Y_et7av4kT8/UrJ9gSXaQnI/AAAAAAAAAEI/YHGiNRYRsPE/s544-no/ProfilePhoto.png
 relationships:
   - '@type': Relationship
@@ -10,7 +10,7 @@ relationships:
         agent: people/darcy
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/iguanas
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -19,4 +19,4 @@ relationships:
         agent: people/darcy
       - '@type': Role
         type: roleTypes/group
-        agent: groups/iguanas
+        agent: groups/enspiral-services

@@ -1,6 +1,6 @@
 '@type': Person
-name: Milan
-image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/013/831/large/Milan_Aug_2014.jpg?1423479001
+name: Milan Holzapfel
+image: https://media.licdn.com/mpr/mpr/shrink_500_500/p/8/005/09a/1ca/171c54a.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
@@ -10,7 +10,7 @@ relationships:
         agent: people/milan
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/enspiral-craftworks
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
@@ -19,4 +19,4 @@ relationships:
         agent: people/milan
       - '@type': Role
         type: roleTypes/group
-        agent: groups/freewheelers
+        agent: groups/enspiral-services

@@ -1,22 +1,22 @@
 '@type': Person
-name: Reaksmey Chea
-image: https://lh4.googleusercontent.com/-sbXdtdJVuTY/UwKytJCw6KI/AAAAAAAAAE8/cDvuH3uEStM/s498-no/IMG_0114.JPG
+name: Neva Poletti
+image: https://lh3.googleusercontent.com/-UZ4rJVCvOuw/AAAAAAAAAAI/AAAAAAAAAI0/lMkDce_2yz8/photo.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/neva-poletti
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
+        agent: groups/freewheelers
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/neva-poletti
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

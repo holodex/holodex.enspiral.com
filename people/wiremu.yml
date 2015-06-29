@@ -19,4 +19,13 @@ relationships:
         agent: people/wiremu
       - '@type': Role
         type: roleTypes/group
+        agent: groups/enspiral-lean-lab
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/wiremu
+      - '@type': Role
+        type: roleTypes/group
         agent: groups/enspiral-craftworks

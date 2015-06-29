@@ -1,5 +1,5 @@
 '@type': Person
-name: Sam
+name: Sam Parkin
 image: https://secure.gravatar.com/avatar/beab112fb9bfe5ce100e37fbb1d7c89e.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship
@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/sam
+        agent: people/sam-parkin
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-lean-lab
@@ -16,7 +16,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/sam
+        agent: people/sam-parkin
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

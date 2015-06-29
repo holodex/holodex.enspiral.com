@@ -1,22 +1,22 @@
 '@type': Person
-name: Ela
-image: https://lh6.googleusercontent.com/-1H9WLz3Lr5Y/VNAKfZTPVLI/AAAAAAAAAmM/wlTQjDTtrm4/s544-no/10532940_10152543216839130_882099269063416338_n.jpg
+name: Thomas Mitchell
+image: http://www.thomasmitchell.co.nz/assets/photo.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/ela
+        agent: people/thomas-mitchell
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-services
+        agent: groups/purposive
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/ela
+        agent: people/thomas-mitchell
       - '@type': Role
         type: roleTypes/group
-        agent: groups/noshi-creative
+        agent: groups/enspiral-services

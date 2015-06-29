@@ -1,22 +1,21 @@
 '@type': Person
-name: Jaime
-image: https://lh4.googleusercontent.com/-Hsu9wgqMCNA/VD8MAT8pm1I/AAAAAAAAABU/YvpZLLgxUFs/w427-h426-no/Jamanius.jpg
+name: Isabelle Metz
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/jaime
+        agent: people/isabelle-metz
       - '@type': Role
         type: roleTypes/group
-        agent: groups/iguanas
+        agent: groups/noshi-creative
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/jaime
+        agent: people/isabelle-metz
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

@@ -1,5 +1,5 @@
 '@type': Group
-name: Iguanas
+name: Internal Iguanas
 image: http://i.imgur.com/BFmaOxi.png
 relationships:
   - '@type': Relationship

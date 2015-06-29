@@ -1,6 +1,5 @@
 '@type': Person
-name: Chris
-handle: christoynbee
+name: Chris Toynbee
 image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/042/large/me.jpeg?1406161892
 relationships:
   - '@type': Relationship

@@ -1,22 +1,22 @@
 '@type': Person
-name: Reaksmey Chea
-image: https://lh4.googleusercontent.com/-sbXdtdJVuTY/UwKytJCw6KI/AAAAAAAAAE8/cDvuH3uEStM/s498-no/IMG_0114.JPG
+name: Seb Paquet
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/056/077/large/photo_%283%29.jpg?1426715631
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/seb-paquet
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
+        agent: groups/purposive
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/seb-paquet
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

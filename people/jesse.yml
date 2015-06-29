@@ -1,47 +1,51 @@
 '@type': Person
-name: Jesse
-image: http://gravatar.com/avatar/0b1941ab5c9e58601c0ada31f5b4b68b?s=512&d=identicon
-me: &me
-  agent: people/jesse
-
+name: Jesse Doud
+image: https://www.loomio.org/assets/people/jesse-b605b0d9033fc5638acfb5ab5b2181e1.jpg
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-craftworks
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/jesse
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-services
   - '@type': Relationship
     type: relationshipTypes/stewardship
     context: groups/enspiral-craftworks
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/nicola
-
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/group
         agent: groups/loomio
-
   - '@type': Relationship
     type: relationshipTypes/stewardship
     context: groups/loomio
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/hannah
@@ -51,7 +55,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/steward
-        <<: *me 
+        agent: people/jesse
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/aaron-thornton

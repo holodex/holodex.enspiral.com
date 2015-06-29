@@ -1,5 +1,5 @@
 '@type': Person
-name: Kiesia
+name: Kiesia Carmine
 image: https://secure.gravatar.com/avatar/e83333fdb3380a648d42a4e174e6c0d5.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship

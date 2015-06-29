@@ -1,22 +1,22 @@
 '@type': Person
-name: Reaksmey Chea
-image: https://lh4.googleusercontent.com/-sbXdtdJVuTY/UwKytJCw6KI/AAAAAAAAAE8/cDvuH3uEStM/s498-no/IMG_0114.JPG
+name: Jack Tolley
+image: https://loomio-attachments.s3.amazonaws.com/users/uploaded_avatars/000/000/216/large/jackphotolowresjan2015.jpg?1423689804
 relationships:
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/jack-tolley
       - '@type': Role
         type: roleTypes/group
-        agent: groups/enspiral-craftworks
+        agent: groups/freewheelers
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/reaksmey
+        agent: people/jack-tolley
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services

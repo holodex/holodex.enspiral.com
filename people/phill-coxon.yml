@@ -1,5 +1,5 @@
 '@type': Person
-name: Robert
+name: Phill Coxon
 image: https://lh4.googleusercontent.com/-sbXdtdJVuTY/UwKytJCw6KI/AAAAAAAAAE8/cDvuH3uEStM/s498-no/IMG_0114.JPG
 relationships:
   - '@type': Relationship
@@ -7,7 +7,16 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/robert
+        agent: people/phill-coxon
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-lean-lab
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/phill-coxon
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
