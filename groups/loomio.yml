@@ -10,4 +10,4 @@ relationships:
         agent: groups/loomio
       - '@type': Role
         type: roleTypes/parent-group
-        agent: groups/enspiral-services
+        agent: groups/enspiral-foundation
