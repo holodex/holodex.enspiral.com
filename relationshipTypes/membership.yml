@@ -8,17 +8,10 @@ roleTypes:
     name: member
     pluralName: members
     relationshipType: relationshipTypes/membership
-    label: "People in {target}"
+    label: "{member} is a member of {group}"
   - '@type': RoleType
     id: roleTypes/group
     name: group
     pluralName: groups
     relationshipType: relationshipTypes/membership
-    label: "Groups that include {target}"
-links:
-  - source: member
-    target: group
-    label: "belong to {target}"
-  - source: group
-    target: member
-    label: "include {target}"
+    label: "{group} has member {member}"

@@ -8,14 +8,10 @@ roleTypes:
     name: subgroup
     pluralName: subgroups
     relationshipType: relationshipTypes/set
-    label: "Groups that belong to {target}"
+    label: "{subgroup} is part of {subgroup}"
   - '@type': RoleType
     id: roleTypes/parent-group
     name: parent group
     pluralName: parent group
     relationshipType: relationshipTypes/set
-    label: "Groups that include {target}"
-links:
-  - source: subgroup
-    target: parent-group
-    label: "are part of {target}"
+    label: "{parent-group} has subgroup {subgroup}"
