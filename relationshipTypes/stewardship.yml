@@ -8,14 +8,10 @@ roleTypes:
     name: steward
     pluralName: stewards
     relationshipType: relationshipTypes/stewardship
-    label: "People that steward {target}"
+    label: "{steward} is steward of {stewardee}"
   - '@type': RoleType
     id: roleTypes/stewardee
     name: stewardee
     pluralName: stewardees
     relationshipType: relationshipTypes/stewardship
-    label: "People that {source} steward"
-links:
-  - source: steward
-    target: stewardee
-    label: "stewards {target}"
+    label: "{stewardee} is stewarded by {steward}"
