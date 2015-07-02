@@ -1,0 +1,16 @@
+'@type': Person
+name: Anthony Cabraal
+image: http://www.buckybox.com/images/team-anthony-6e6c9d73.jpg
+me: &me
+  agent: people/anthony-cabraal
+
+relationships:
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        <<: *me
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/bucky-box

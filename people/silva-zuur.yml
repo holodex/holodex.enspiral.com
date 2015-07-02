@@ -20,3 +20,12 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        <<: *me
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/bucky-box

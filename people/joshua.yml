@@ -39,3 +39,12 @@ relationships:
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/derek
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/joshua
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/bucky-box
