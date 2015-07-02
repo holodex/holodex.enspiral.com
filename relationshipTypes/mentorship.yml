@@ -8,10 +8,14 @@ roleTypes:
     name: mentor
     pluralName: mentors
     relationshipType: relationshipTypes/mentorship
-    label: "{mentor} is mentor of {mentee}"
+    label: "People that mentor {target}"
   - '@type': RoleType
     id: roleTypes/mentee
     name: mentee
     pluralName: mentees
     relationshipType: relationshipTypes/mentorship
-    label: "{mentee} is mentored by {mentor}"
+    label: "People that {source} mentors"
+links:
+  - source: mentor
+    target: mentee
+    label: "mentors {target}"
