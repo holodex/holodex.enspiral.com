@@ -16,6 +16,7 @@ roleTypes:
     relationshipType: relationshipTypes/stewardship
     label: "People that {source} steward"
 links:
-  - source: steward
+  - '@type': LinkType
+    source: steward
     target: stewardee
     label: "stewards {target}"

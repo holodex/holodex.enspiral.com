@@ -16,6 +16,7 @@ roleTypes:
     relationshipType: relationshipTypes/set
     label: "Groups that include {target}"
 links:
-  - source: subgroup
+  - '@type': LinkType
+    source: subgroup
     target: parent-group
     label: "are part of {target}"

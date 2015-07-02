@@ -16,9 +16,11 @@ roleTypes:
     relationshipType: relationshipTypes/membership
     label: "Groups that include {target}"
 links:
-  - source: member
+  - '@type': LinkType
+    source: member
     target: group
     label: "belong to {target}"
-  - source: group
+  - '@type': LinkType
+    source: group
     target: member
     label: "include {target}"
