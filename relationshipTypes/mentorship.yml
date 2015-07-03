@@ -17,8 +17,15 @@ roleTypes:
     label: "People that {source} mentors"
 links:
   - '@type': LinkType
+<<<<<<< HEAD
     id: linkTypes/mentors
     relationshipType: relationshipTypes/mentorship
     source: roleTypes/mentor
     target: roleTypes/mentee
+=======
+    id: linkTypes/mentor>mentee
+    relationshipType: relationshipTypes/mentorship
+    source: mentor
+    target: mentee
+>>>>>>> 18d75ed... add relationshipType and id
     label: "mentors {target}"
