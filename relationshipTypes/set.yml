@@ -5,26 +5,32 @@ description: A group is part of a group
 roleTypes:
   - '@type': RoleType
     id: roleTypes/subgroup
+    color: "#E91E63"
     name: subgroup
     pluralName: subgroups
     relationshipType: relationshipTypes/set
-    label: "Groups that belong to {target}"
+    linkType: linkTypes/(group)_is-part-of
+    label: "Groups that are part of {pair}"
   - '@type': RoleType
     id: roleTypes/parent-group
+    color: "#FF5722"
     name: parent group
-    pluralName: parent group
+    pluralName: parent groups
     relationshipType: relationshipTypes/set
-    label: "Groups that include {target}"
+    linkType: linkTypes/includes_(group)
+    label: "Groups that include {pair}"
 links:
   - '@type': LinkType
-    id: linkTypes/is-subgroup-of
+    id: linkTypes/(group)_is-part-of
+    color: "#E91E63"
     relationshipType: relationshipTypes/set
-    source: roleTypes/subgroup
-    target: roleTypes/parent-group
-    label: "is subgroup of {target}"
+    source: /roleTypes/subgroup
+    target: /roleTypes/parent-group
+    label: "{source} is part of {target}"
   - '@type': LinkType
-    id: linkTypes/is-parent-group-of
+    id: linkTypes/includes_(group)
+    color: "#FF5722"
     relationshipType: relationshipTypes/set
-    source: roleTypes/parent-group
-    target: roleTypes/subgroup
-    label: "is parent group of {target}"
+    source: /roleTypes/parent-group
+    target: /roleTypes/subgroup
+    label: "{source} includes {target}"

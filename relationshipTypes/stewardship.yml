@@ -8,13 +8,18 @@ roleTypes:
     name: steward
     pluralName: stewards
     relationshipType: relationshipTypes/stewardship
-    label: "People that steward {target}"
+    linkType: linkTypes/stewards
+    color: "#F44336"
+    label: "People that steward {pair}"
+    inContextLabel: "People who steward in {context}"
   - '@type': RoleType
     id: roleTypes/stewardee
+    color: "#795548"
     name: stewardee
     pluralName: stewardees
     relationshipType: relationshipTypes/stewardship
-    label: "People that {source} steward"
+    label: "People that {pair} stewards"
+    inContextLabel: "People who are stewarded in {context}"
 links:
   - '@type': LinkType
     id: linkTypes/stewards

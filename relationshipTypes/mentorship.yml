@@ -5,18 +5,24 @@ description: A mentor mentors a mentee.
 roleTypes:
   - '@type': RoleType
     id: roleTypes/mentor
+    color: "#9C27B0"
     name: mentor
     pluralName: mentors
     relationshipType: relationshipTypes/mentorship
-    label: "People that mentor {target}"
+    linkType: linkTypes/mentors
+    label: "People that mentor {pair}"
+    inContextLabel: "Mentors in {context}"
   - '@type': RoleType
     id: roleTypes/mentee
+    color: "#673AB7"
     name: mentee
     pluralName: mentees
     relationshipType: relationshipTypes/mentorship
-    label: "People that {source} mentors"
+    label: "People that {pair} mentors"
+    inContextLabel: "People who are mentored in {context}"
 links:
   - '@type': LinkType
+<<<<<<< HEAD
 <<<<<<< HEAD
     id: linkTypes/mentors
     relationshipType: relationshipTypes/mentorship
@@ -29,3 +35,12 @@ links:
     target: mentee
 >>>>>>> 18d75ed... add relationshipType and id
     label: "mentors {target}"
+=======
+    id: linkTypes/mentors
+    color: "#9C27B0"
+    relationshipType: relationshipTypes/mentorship
+    source: /roleTypes/mentor
+    target: /roleTypes/mentee
+    label: "(source} mentors {target}"
+    inContextLabel: "mentors in {context}"
+>>>>>>> a042a78... add colors, consolidate labels

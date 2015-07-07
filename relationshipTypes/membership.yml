@@ -5,26 +5,33 @@ description: A member is part of a group
 roleTypes:
   - '@type': RoleType
     id: roleTypes/member
+    color: "#3F51B5"
     name: member
     pluralName: members
     relationshipType: relationshipTypes/membership
-    label: "People in {target}"
+    linkType: linkTypes/(person)_is-part-of
+    label: "People in {pair}"
   - '@type': RoleType
     id: roleTypes/group
+    color: "#2196F3"
     name: group
     pluralName: groups
     relationshipType: relationshipTypes/membership
-    label: "Groups that include {target}"
+    linkType: linkTypes/includes_(person)
+    label: "Groups that include {pair}"
 links:
   - '@type': LinkType
-    id: linkTypes/member>group
+    id: linkTypes/(person)_is-part-of
+    color: "#3F51B5"
     relationshipType: relationshipTypes/membership
-    source: member
-    target: group
-    label: "belong to {target}"
+    source: /roleTypes/member
+    target: /roleTypes/group
+    label: "{source} is part of {target}"
+
   - '@type': LinkType
-    id: linkTypes/group>member
+    id: linkTypes/includes_(person)
+    color: "#2196F3"
     relationshipType: relationshipTypes/membership
-    source: group
-    target: member
-    label: "include {target}"
+    source: /roleTypes/group
+    target: /roleTypes/member
+    label: "{source} includes {target}"
