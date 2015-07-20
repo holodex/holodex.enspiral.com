@@ -17,10 +17,14 @@ roleTypes:
     label: "Groups that include {target}"
 links:
   - '@type': LinkType
-    source: member
-    target: group
-    label: "belong to {target}"
+    id: linkTypes/is-member-of
+    relationshipType: relationshipTypes/membership
+    source: roleTypes/member
+    target: roleTypes/group
+    label: "is member of {target}"
   - '@type': LinkType
-    source: group
-    target: member
-    label: "include {target}"
+    id: linkTypes/has-member
+    relationshipType: relationshipTypes/membership
+    source: roleTypes/group
+    target: roleTypes/member
+    label: "has member {target}"
