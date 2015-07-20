@@ -17,6 +17,14 @@ roleTypes:
     label: "Groups that include {target}"
 links:
   - '@type': LinkType
-    source: subgroup
-    target: parent-group
-    label: "are part of {target}"
+    id: linkTypes/is-subgroup-of
+    relationshipType: relationshipTypes/set
+    source: roleTypes/subgroup
+    target: roleTypes/parent-group
+    label: "is subgroup of {target}"
+  - '@type': LinkType
+    id: linkTypes/is-parent-group-of
+    relationshipType: relationshipTypes/set
+    source: roleTypes/parent-group
+    target: roleTypes/subgroup
+    label: "is parent group of {target}"
