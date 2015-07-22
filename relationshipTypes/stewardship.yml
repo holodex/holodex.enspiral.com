@@ -10,20 +10,31 @@ roleTypes:
     relationshipType: relationshipTypes/stewardship
     linkType: linkTypes/stewards
     color: "#F44336"
-    label: "People that steward {pair}"
-    inContextLabel: "People who steward in {context}"
+    # label: ""
+    queryLabels: "a steward in {context}"
+      # context:
+      #   - "a steward in {context}"
   - '@type': RoleType
     id: roleTypes/stewardee
     color: "#795548"
     name: stewardee
     pluralName: stewardees
     relationshipType: relationshipTypes/stewardship
-    label: "People that {pair} stewards"
-    inContextLabel: "People who are stewarded in {context}"
+    # label: ""
+    queryLabels: "a steward in {context}"
+    #  context:
+    #    - "a steward in {context}"
 links:
   - '@type': LinkType
     id: linkTypes/stewards
     relationshipType: relationshipTypes/stewardship
-    source: roleTypes/steward
-    target: roleTypes/stewardee
-    label: "stewards {target}"
+    color: "#F44336"
+    source: /roleTypes/steward
+    target: /roleTypes/stewardee
+    labels: "{source} stewards {target}, stewards in {context}"
+    queryLabels: "People who steward {target},People who are stewarded by {source},People who steward others in {context}"
+      # target:
+      #   - "People who steward {target}"
+      # source:
+      #   - "People who are stewarded by {source}"
+      #   - "People who {source} stewards"

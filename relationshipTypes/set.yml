@@ -9,28 +9,38 @@ roleTypes:
     name: subgroup
     pluralName: subgroups
     relationshipType: relationshipTypes/set
-    linkType: linkTypes/(group)_is-part-of
-    label: "Groups that are part of {pair}"
+    linkType: linkTypes/is-part-of
+    # label: ""
+    queryLabels: "a subgroup in {context}"
   - '@type': RoleType
     id: roleTypes/parent-group
     color: "#FF5722"
     name: parent group
     pluralName: parent groups
     relationshipType: relationshipTypes/set
-    linkType: linkTypes/includes_(group)
-    label: "Groups that include {pair}"
+    linkType: linkTypes/has-subgroup
+    # label: ""
+    queryLabels: "a parent-group in {context}"
 links:
   - '@type': LinkType
-    id: linkTypes/(group)_is-part-of
+    id: linkTypes/is-part-of
+    inverse: linkTypes/has-subgroup
     color: "#E91E63"
     relationshipType: relationshipTypes/set
     source: /roleTypes/subgroup
     target: /roleTypes/parent-group
-    label: "{source} is part of {target}"
+    labels: "{source} is part of {target}"
+    queryLabels: "Groups that are part of {target},Groups that are parent-groups of {source}"
+      # target:
+      #   - "Groups that are part of {target}"
   - '@type': LinkType
-    id: linkTypes/includes_(group)
+    id: linkTypes/has-subgroup
+    inverse: linkTypes/is-part-of
     color: "#FF5722"
     relationshipType: relationshipTypes/set
     source: /roleTypes/parent-group
     target: /roleTypes/subgroup
-    label: "{source} includes {target}"
+    labels: "{source} incorporates {target}"
+    queryLabels: "Groups with the subgroup {target},Groups that are subgroups of {source}"
+      # target:
+      #   - "Groups that have subgroup {target}"
