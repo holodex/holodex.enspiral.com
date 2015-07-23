@@ -5,53 +5,28 @@ description: A mentor mentors a mentee.
 roleTypes:
   - '@type': RoleType
     id: roleTypes/mentor
-    color: "#9C27B0"
     name: mentor
     pluralName: mentors
     relationshipType: relationshipTypes/mentorship
-    linkType: linkTypes/mentors
-    # label: ""
     queryLabels: "a mentor in {context}"
       # context:
       #   - "a mentee in {context}"
+    labels: "People that mentor {target}"
   - '@type': RoleType
     id: roleTypes/mentee
-    color: "#673AB7"
     name: mentee
     pluralName: mentees
     relationshipType: relationshipTypes/mentorship
-    # labels: ""
     queryLabels: "a mentee in {context}"
       # context:
       #   - "a stewardee in {context}"
+    labels: "People that {source} mentors"
 links:
   - '@type': LinkType
-<<<<<<< HEAD
-<<<<<<< HEAD
     id: linkTypes/mentors
     relationshipType: relationshipTypes/mentorship
+    color: "#673AB7"
     source: roleTypes/mentor
     target: roleTypes/mentee
-=======
-    id: linkTypes/mentor>mentee
-    relationshipType: relationshipTypes/mentorship
-    source: mentor
-    target: mentee
->>>>>>> 18d75ed... add relationshipType and id
-    label: "mentors {target}"
-=======
-    id: linkTypes/mentors
-    color: "#9C27B0"
-    relationshipType: relationshipTypes/mentorship
-    source: /roleTypes/mentor
-    target: /roleTypes/mentee
-<<<<<<< HEAD
-    label: "(source} mentors {target}"
-    inContextLabel: "mentors in {context}"
->>>>>>> a042a78... add colors, consolidate labels
-=======
     labels: "{source} mentors {target},mentors in {context}"
     queryLabels: "People who mentor {target},People who {source} mentors,People who mentor in {context}"
-      # source: "People who {source} mentors"
-      # target: "People who mentor {target}"
->>>>>>> 9e46544... data that works with the query branch

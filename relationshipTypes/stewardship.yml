@@ -29,8 +29,8 @@ links:
     id: linkTypes/stewards
     relationshipType: relationshipTypes/stewardship
     color: "#F44336"
-    source: /roleTypes/steward
-    target: /roleTypes/stewardee
+    source: roleTypes/steward
+    target: roleTypes/stewardee
     labels: "{source} stewards {target}, stewards in {context}"
     queryLabels: "People who steward {target},People who are stewarded by {source},People who steward others in {context}"
       # target:

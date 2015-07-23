@@ -25,8 +25,8 @@ links:
     inverse: linkTypes/includes
     color: "#3F51B5"
     relationshipType: relationshipTypes/membership
-    source: /roleTypes/member
-    target: /roleTypes/group
+    source: roleTypes/member
+    target: roleTypes/group
     labels: "{source} belongs to {target}"
       # - "{source} belongs to {target}"
       # - "{source} is part of {target}"
@@ -40,8 +40,8 @@ links:
     inverse: linkTypes/belongs-to
     color: "#2196F3"
     relationshipType: relationshipTypes/membership
-    source: /roleTypes/group
-    target: /roleTypes/member
+    source: roleTypes/group
+    target: roleTypes/member
     labels: "{source} includes {target}"
     queryLabels: "People in {source},Groups that include {target}"
       # target:
