@@ -20,7 +20,7 @@ relationships:
         agent: people/simon
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/stephanie
+        agent: people/dr-craig
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:
