@@ -39,13 +39,3 @@ relationships:
       - '@type': Role
         type: roleTypes/stewardee
         agent: people/craig
-  - '@type': Relationship
-    type: relationshipTypes/stewardship
-    context: groups/enspiral-craftworks
-    roles:
-      - '@type': Role
-        type: roleTypes/steward
-        agent: people/mikey
-      - '@type': Role
-        type: roleTypes/stewardee
-        agent: people/hannah

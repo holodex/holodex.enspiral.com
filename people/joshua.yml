@@ -38,7 +38,7 @@ relationships:
         agent: people/joshua
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/derek
+        agent: people/genevieve
   - '@type': Relationship
     type: relationshipTypes/membership
     roles:

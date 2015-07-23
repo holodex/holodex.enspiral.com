@@ -29,4 +29,4 @@ relationships:
         agent: people/craig
       - '@type': Role
         type: roleTypes/stewardee
-        agent: people/genevieve
+        agent: people/nicola
