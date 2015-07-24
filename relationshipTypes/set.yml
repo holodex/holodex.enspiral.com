@@ -9,7 +9,6 @@ roleTypes:
     name: subgroup
     pluralName: subgroups
     relationshipType: relationshipTypes/set
-    linkType: linkTypes/is-part-of
     # label: ""
     queryLabels: "a subgroup in {context}"
   - '@type': RoleType
@@ -18,7 +17,6 @@ roleTypes:
     name: parent group
     pluralName: parent groups
     relationshipType: relationshipTypes/set
-    linkType: linkTypes/has-subgroup
     # label: ""
     queryLabels: "a parent-group in {context}"
 links:

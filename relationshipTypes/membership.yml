@@ -9,7 +9,6 @@ roleTypes:
     name: member
     pluralName: members
     relationshipType: relationshipTypes/membership
-    linkType: linkTypes/belongs-to
     queryLabels: "a member in {context}"
   - '@type': RoleType
     id: roleTypes/group
@@ -17,11 +16,10 @@ roleTypes:
     name: group
     pluralName: groups
     relationshipType: relationshipTypes/membership
-    linkType: linkTypes/includes
     queryLabels: "a group in {context}"
 links:
   - '@type': LinkType
-    id: linkTypes/belongs-to
+    id: linkTypes/is-member-of
     inverse: linkTypes/includes
     color: "#3F51B5"
     relationshipType: relationshipTypes/membership
@@ -37,7 +35,7 @@ links:
 
   - '@type': LinkType
     id: linkTypes/includes
-    inverse: linkTypes/belongs-to
+    inverse: linkTypes/is-member-of
     color: "#2196F3"
     relationshipType: relationshipTypes/membership
     source: roleTypes/group

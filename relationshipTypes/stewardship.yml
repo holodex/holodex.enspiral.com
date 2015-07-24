@@ -8,7 +8,6 @@ roleTypes:
     name: steward
     pluralName: stewards
     relationshipType: relationshipTypes/stewardship
-    linkType: linkTypes/stewards
     color: "#F44336"
     # label: ""
     queryLabels: "a steward in {context}"
