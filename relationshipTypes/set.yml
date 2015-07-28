@@ -21,7 +21,7 @@ roleTypes:
     queryLabels: "a parent-group in {context}"
 links:
   - '@type': LinkType
-    id: linkTypes/is-part-of
+    id: linkTypes/is-subgroup-of
     inverse: linkTypes/has-subgroup
     color: "#E91E63"
     relationshipType: relationshipTypes/set
@@ -33,7 +33,7 @@ links:
       #   - "Groups that are part of {target}"
   - '@type': LinkType
     id: linkTypes/has-subgroup
-    inverse: linkTypes/is-part-of
+    inverse: linkTypes/is-subgroup-of
     color: "#FF5722"
     relationshipType: relationshipTypes/set
     source: roleTypes/parent-group

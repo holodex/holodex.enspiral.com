@@ -20,7 +20,7 @@ roleTypes:
 links:
   - '@type': LinkType
     id: linkTypes/is-member-of
-    inverse: linkTypes/includes
+    inverse: linkTypes/has-member
     color: "#3F51B5"
     relationshipType: relationshipTypes/membership
     source: roleTypes/member
@@ -34,7 +34,7 @@ links:
         # - "People who are part of {target}"
 
   - '@type': LinkType
-    id: linkTypes/includes
+    id: linkTypes/has-member
     inverse: linkTypes/is-member-of
     color: "#2196F3"
     relationshipType: relationshipTypes/membership
