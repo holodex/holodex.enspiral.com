@@ -5,26 +5,43 @@ description: A member is part of a group
 roleTypes:
   - '@type': RoleType
     id: roleTypes/member
+    color: "#3F51B5"
     name: member
     pluralName: members
     relationshipType: relationshipTypes/membership
-    label: "People in {target}"
+    queryLabels: "a member in {context}"
   - '@type': RoleType
     id: roleTypes/group
+    color: "#2196F3"
     name: group
     pluralName: groups
     relationshipType: relationshipTypes/membership
-    label: "Groups that include {target}"
+    queryLabels: "a group in {context}"
 links:
   - '@type': LinkType
     id: linkTypes/is-member-of
+    inverse: linkTypes/has-member
+    color: "#3F51B5"
     relationshipType: relationshipTypes/membership
     source: roleTypes/member
     target: roleTypes/group
-    label: "is member of {target}"
+    labels: "{source} belongs to {target}"
+      # - "{source} belongs to {target}"
+      # - "{source} is part of {target}"
+    queryLabels: "People who belong to {target},{source}'s groups"
+      # target:
+        # - "People who belong to {target}"
+        # - "People who are part of {target}"
+
   - '@type': LinkType
     id: linkTypes/has-member
+    inverse: linkTypes/is-member-of
+    color: "#2196F3"
     relationshipType: relationshipTypes/membership
     source: roleTypes/group
     target: roleTypes/member
-    label: "has member {target}"
+    labels: "{source} includes {target}"
+    queryLabels: "People in {source},Groups that include {target}"
+      # target:
+        # - "Groups that include {target}"
+        # - "People in {source}"
