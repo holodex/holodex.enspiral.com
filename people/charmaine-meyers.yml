@@ -11,3 +11,12 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-accounting
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/charmaine-meyers
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-space
