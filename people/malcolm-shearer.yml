@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/malcolm
+        agent: people/malcolm-shearer
       - '@type': Role
         type: roleTypes/group
         agent: groups/iguanas
@@ -16,7 +16,16 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/malcolm
+        agent: people/malcolm-shearer
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/malcolm-shearer
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/enspiral-dev-academy
