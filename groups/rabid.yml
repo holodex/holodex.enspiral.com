@@ -1,0 +1,12 @@
+'@type': Group
+name: Rabid
+image: https://logo.clearbit.com/rabid.co.nz
+  - '@type': Relationship
+    type: relationshipTypes/set
+    roles:
+      - '@type': Role
+        type: roleTypes/subgroup
+        agent: groups/rabid
+      - '@type': Role
+        type: roleTypes/parent-group
+        agent: groups/enspiral-foundation
