@@ -1,6 +1,7 @@
 '@type': Group
 name: Rabid
 image: https://logo.clearbit.com/rabid.co.nz
+relationships:
   - '@type': Relationship
     type: relationshipTypes/set
     roles:
