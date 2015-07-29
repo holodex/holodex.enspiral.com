@@ -29,3 +29,12 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/volunteer-impact
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/sam-rye
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/lifehack

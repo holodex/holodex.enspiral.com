@@ -11,3 +11,12 @@ relationships:
       - '@type': Role
         type: roleTypes/group
         agent: groups/rabid
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/josh-forde
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/lifehack
