@@ -1,5 +1,5 @@
 '@type': Person
-name: Gina
+name: Gina Rembe
 image: https://secure.gravatar.com/avatar/77bb18aa5925ecd7dff8ef71325cc57f.png?d=none&r=pg&s=170
 relationships:
   - '@type': Relationship
@@ -7,7 +7,7 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/gina
+        agent: people/gina-rembe
       - '@type': Role
         type: roleTypes/group
         agent: groups/iguanas
@@ -16,7 +16,16 @@ relationships:
     roles:
       - '@type': Role
         type: roleTypes/member
-        agent: people/gina
+        agent: people/gina-rembe
       - '@type': Role
         type: roleTypes/group
         agent: groups/enspiral-services
+  - '@type': Relationship
+    type: relationshipTypes/membership
+    roles:
+      - '@type': Role
+        type: roleTypes/member
+        agent: people/gina-rembe
+      - '@type': Role
+        type: roleTypes/group
+        agent: groups/lifehack
