@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/holodex/holodex.enspiral.com#readme",
   "dependencies": {
-    "holodex": "github:holodex/app"
+    "holodex": "github:holodex/app#services"
   }
 }
