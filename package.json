@@ -9,6 +9,10 @@
     "add-remote": "git remote add deploy dokku@holodex.is:enspiral",
     "deploy": "git push deploy master"
   },
+  "engines": {
+    "node": "^0.12.0",
+    "npm": "^2.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/holodex/holodex.enspiral.com.git"
