@@ -5,9 +5,10 @@
   "description": "Enspiral's Holodex app instance",
   "main": "index.js",
   "scripts": {
-    "start": "holodex",
     "add-remote": "git remote add deploy dokku@holodex.is:enspiral",
-    "deploy": "git push deploy master"
+    "deploy": "git push deploy master",
+    "start": "holodex",
+    "postinstall": "npm dedupe"
   },
   "engines": {
     "node": "^0.12.0",
