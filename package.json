@@ -1,7 +1,7 @@
 {
   "name": "holodex.enspiral.com",
   "private": true,
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Enspiral's Holodex app instance",
   "main": "index.js",
   "scripts": {
