@@ -7,6 +7,7 @@ module.exports = {
   data: {
     gitRepoUrl: 'git://github.com/holodex/enspiral-data.git',
     localDir: __dirname + '/../data',
+    branch: 'csv',
     cronSpec: '*/15 * * * *'
   }
 }
